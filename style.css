@@ -1,0 +1,240 @@
+/* _________Player entry page */
+#form-box{
+  background-color:black;
+  /* border:blue 3px solid; */
+  border-radius: 10px;
+  font-family: 'Cookie', cursive;
+  opacity: 0.8;
+  text-align: center;
+  width:600px;
+  /* Centering */
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* _______________ */
+
+}
+#titles{
+  font-size: 340%;
+  color:black;
+}
+.name_input{
+  border-radius: 5px;
+  background-color:#F8F6CA;
+  color:black;
+  font-weight: 900;
+}
+table{
+  margin:0 auto;
+}
+td{
+  width:240px;
+  color:#F8F6CA;
+}
+#submit{
+
+  border-radius:5px;
+  font-family: 'Cookie', cursive;
+  font-size:250%;
+  margin:20px;
+  width:68%;
+
+}
+/* Main page_____________________________________________________ */
+.p1score{
+  border-radius:10px;
+  color:gold;
+  font-family: 'Cookie', cursive;
+  font-size: 120%;
+  font-weight: 800;
+  background: linear-gradient(brown, red);
+  width:50px;
+  text-align: center;
+}
+.p2score{
+  border-radius: 10px;
+  color:gold;
+  font-family: 'Cookie', cursive;
+  font-size: 120%;
+  font-weight: 800;
+  background: linear-gradient(brown, red);
+  width:50px;
+  text-align: center;
+}
+
+body{
+  background-image:url("DicePic.jpg");
+  background-size:cover;
+}
+p{
+  margin:6px;
+}
+.game_container{
+  /* background-color: #c0f7c8; */
+  border: none;
+  border-radius:10px;
+  height: 800px;
+  margin:0 auto;
+  opacity: 0.8;
+  width: 850px;
+}
+.title_container{
+  border-radius: 10px;
+  background-image: linear-gradient(red, brown);
+  margin: 0 auto;
+  margin-top: 10px;
+  position: relative;
+  border: none;
+  width: 90%;
+  height: 100px;
+}
+h1{
+  font-family: 'Cookie', cursive;
+  font-size:4.5rem;
+  margin:0;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.name_entry{
+  border-radius: 10px;
+  font-family: 'Cookie', cursive;
+  float:left;
+  background-image: linear-gradient(brown, gold);
+  margin: 0 0 0 33px;
+  margin-top: 10px;
+  margin-left: 41px;
+  text-align: center;
+  border: none;
+  width: 380px;
+  height: 48px;
+}
+.next-move-container{
+  float:right;
+  background-image: linear-gradient(brown, gold);
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-right: 40px;
+  border: 0px blue solid;
+  text-align: center;
+  width: 350px;
+  height: 48px;
+  font-size: 1.3rem;
+  position: relative;
+}
+.next-move-container:hover{
+  background-image: linear-gradient(brown, red);
+}
+#roll{
+  border: none;
+  font-family: 'Cookie', cursive;
+  font-size: 150%;
+  margin:0 auto;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.pnames{
+  font-size: 230%;
+}
+.name_input{
+  margin: 10px;
+  text-align: center;
+}
+.body_container{
+  margin:0 auto;
+  margin-top:10px;
+  border:none;
+  height: 600px;
+  width:90%;
+  text-align: center;
+}
+.dice_container{
+  float:left;
+  height:535px;
+  border: none;
+  border-radius:10px;
+  margin-top:10px;
+  width:100px;
+  float:left;
+}
+.score_container{
+  float:left;
+  border:none;
+  border-radius:10px;
+  height: 535px;
+  width: 499px;
+  float:left;
+  margin:5px;
+}
+.score_card{
+  float: left;
+  font-family: 'Indie Flower', cursive;
+  font-size:120%;
+  font-weight:800;
+  border:0;
+  color:gold;
+  width:180px;
+  height:530px;
+  margin:0 10px 0 17px;
+  padding:0 10px 0 17px;
+}
+.dice{
+  position:relative;
+  height:90px;
+  width:90px;
+  background: linear-gradient(to right, orange 30%, yellow);
+  border:1px green solid;
+  border-radius:10px;
+  margin:11px 4px;
+}
+.dice-text{
+  font-family: 'Cookie', cursive;
+  font-size:280%;
+  margin-top: 0;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+}
+.p1score{
+  float:right;
+
+}
+.p2score{
+  float:right;
+
+}
+
+
+.nextTurn{
+  border: none;
+  border-radius:10px;
+  background-image: linear-gradient(gold, brown);
+  font-family: 'Cookie', cursive;
+  font-size:280%;
+  margin:0 auto;
+  width:99%;
+  height:50px;
+}
+.nextTurn:hover{
+  background-image: linear-gradient(brown, red);
+}
+.totalscores{
+  background: linear-gradient(brown, red);
+  border:silver 2px solid;
+  border-radius:10px;
+  border-right:white 2px solid;
+  border-bottom:white 2px solid;
+
+}
+.instructions{
+  color:gold;
+  font-size:130%;
+  font-family: 'Cookie', cursive;
+
+}
